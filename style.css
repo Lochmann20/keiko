@@ -12,6 +12,80 @@ h1{
     top: 13cqw;
 }
 
+.about {
+    color: black;
+    font-size: 7rem;
+    position: absolute;
+    top: 2cqw;
+    left: 0cqw;
+    padding: 13px 610.4px;
+    background-color: orangered;
+}
+
+
+
+
+
+
+/****************menu drop down***********************/
+.logo {
+    background-color: rgb(251, 93, 35);
+    width: 1493px;
+    padding: 13px;
+    position: absolute;
+    left: 0cqw;
+    top: 1cqw;
+  }
+
+p {
+    color: white;
+}
+
+.span2 {
+    position: absolute;
+    left: 30cqw;
+    top: 5.5cqw;
+    font-size: 2rem;
+}
+.span3 {
+    position: absolute;
+    left: 16cqw;
+    top: 5.5cqw;
+    font-size: 2rem;
+}
+.span4 {
+    position: absolute;
+    left: 46cqw;
+    top: 5.5cqw;
+    font-size: 2rem;
+}
+
+.About{
+    text-decoration: none;
+    color:black;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    left: 10cqw;
+    top: 8cqw;
+    background-color: rgb(251, 93, 35);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 93px 306px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
 
 /************about***************/
 .about {
@@ -45,7 +119,7 @@ h4 {
     left: 30cqw;
 }
 
-div {
+.animation {
     width: 73px;
     height: 62px;
     top: 25cqw;
