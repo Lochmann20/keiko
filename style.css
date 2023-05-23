@@ -1,5 +1,7 @@
+
+
 body{
-    background-color: rgb(255, 119, 0);
+    background-color: rgb(255, 255, 255);
 }
 
 h1{
@@ -8,4 +10,69 @@ h1{
     position: absolute;
     left: 38cqw;
     top: 13cqw;
+}
+
+
+/************about***************/
+.about {
+    color: black;
+    font-size: 7rem;
+    position: absolute;
+    top: 2cqw;
+    left: 0cqw;
+    padding: 13px 610.4px;
+    background-color: orangered;
+}
+
+h2 {
+    font-size: 1.5rem;
+    position: absolute;
+    top: 29cqw;
+    left: 30cqw;
+}
+
+h3 {
+    font-size: 1.5rem;
+    position: absolute;
+    top: 40cqw;
+    left: 30cqw;
+}
+
+h4 {
+    font-size: 1.5rem;
+    position: absolute;
+    top: 51cqw;
+    left: 30cqw;
+}
+
+div {
+    width: 73px;
+    height: 62px;
+    top: 25cqw;
+    left: 24cqw;
+    background-image: url(Skærmbillede\ 2023-05-22\ 094104.png);
+    position: relative;
+    animation-name: example;
+    animation-duration: 8s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+  
+@keyframes example {
+    0%   {background-image: url(Skærmbillede\ 2023-05-22\ 094104.png); left:380px; top:380px;}
+    25%  {background-image: url(Skærmbillede\ 2023-05-22\ 094104.png); left:1000px; top:380px;}
+    50%  {background-image: url(Skærmbillede\ 2023-05-22\ 094104.png); left:1000px; top:1000px;}
+    75%  {background-image: url(Skærmbillede\ 2023-05-22\ 094104.png); left:380px; top:1000px;}
+    100% {background-image: url(Skærmbillede\ 2023-05-22\ 094104.png); left:380px; top:380px;}
+  }
+
+
+.footer {
+    color: black;
+    font-size: 4rem;
+    position: absolute;
+    top: 80cqw;
+    left: 0cqw;
+    padding: 13px 668.4px;
+    background-color: orangered;    
 }
