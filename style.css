@@ -34,7 +34,7 @@ h1{
     padding: 13px;
     position: absolute;
     left: 0cqw;
-    top: 1cqw;
+    top: -1.5cqw;
   }
 
 p {
@@ -62,11 +62,45 @@ p {
 
 .About{
     text-decoration: none;
-    color:black;
+    color: black;
+    position: absolute;
+    top: 2cqw;
+    left: 36cqw;
 }
 .SignUp{
     text-decoration: none;
-    color:black;
+    color: black;
+    position: absolute;
+    top: 6cqw;
+    left: 36cqw;
+}
+.Kurv{
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    top: 8cqw;
+    left: 36cqw;
+}
+.Fav{
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    top: 4cqw;
+    left: 36cqw;
+}
+.Checkout{
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    top: 10cqw;
+    left: 36cqw; 
+}
+.Blog{
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    top: 2cqw;
+    left: 20cqw; 
 }
 
 .dropdown {
