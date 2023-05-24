@@ -1,190 +1,282 @@
-
-
-body{
-    background-color: rgb(255, 255, 255);
+/* DET SKAL MED !!!!  
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-h1{
-    color: black;
-    font-size: 7rem;
-    position: absolute;
-    left: 38cqw;
-    top: 13cqw;
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+} */
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+/* hvad er det her????? */
+h1 {
+  color: black;
+  font-size: 7rem;
+  position: absolute;
+  left: 38cqw;
+  top: 13cqw;
 }
 
 .about {
-    color: black;
-    font-size: 7rem;
-    position: absolute;
-    top: 2cqw;
-    left: 0cqw;
-    padding: 13px 610.4px;
-    background-color: orangered;
+  color: black;
+  font-size: 7rem;
+  position: absolute;
+  top: 2cqw;
+  left: 0cqw;
+  padding: 13px 610.4px;
+  background-color: orangered;
 }
 
-
-
-
-
+/************************** WEB FONTS ************************/
+@font-face {
+  font-family: "poloniumbold";
+  src: url("polonium-bold-webfont.woff2") format("woff2"), url("polonium-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 
 /****************menu drop down***********************/
 .logo {
-    background-color: rgb(251, 93, 35);
-    width: 1493px;
-    padding: 13px;
-    position: absolute;
-    left: 0cqw;
-    top: -1.5cqw;
-  }
+  background-color: rgb(251, 93, 35);
+  width: 1493px;
+  padding: 13px;
+  position: absolute;
+  left: 0cqw;
+  top: -1.5cqw;
+}
 
 p {
-    color: white;
+  color: white;
 }
 
 .span2 {
-    position: absolute;
-    left: 30cqw;
-    top: 5.5cqw;
-    font-size: 2rem;
+  position: absolute;
+  left: 30cqw;
+  top: 5.5cqw;
+  font-size: 2rem;
 }
 .span3 {
-    position: absolute;
-    left: 16cqw;
-    top: 5.5cqw;
-    font-size: 2rem;
+  position: absolute;
+  left: 16cqw;
+  top: 5.5cqw;
+  font-size: 2rem;
 }
 .span4 {
-    position: absolute;
-    left: 46cqw;
-    top: 5.5cqw;
-    font-size: 2rem;
+  position: absolute;
+  left: 46cqw;
+  top: 5.5cqw;
+  font-size: 2rem;
 }
 
-.About{
-    text-decoration: none;
-    color: black;
-    position: absolute;
-    top: 2cqw;
-    left: 36cqw;
+.About {
+  text-decoration: none;
+  color: black;
+  position: absolute;
+  top: 2cqw;
+  left: 36cqw;
 }
-.SignUp{
-    text-decoration: none;
-    color: black;
-    position: absolute;
-    top: 6cqw;
-    left: 36cqw;
+.SignUp {
+  text-decoration: none;
+  color: black;
+  position: absolute;
+  top: 6cqw;
+  left: 36cqw;
 }
-.Kurv{
-    text-decoration: none;
-    color: black;
-    position: absolute;
-    top: 8cqw;
-    left: 36cqw;
+.Kurv {
+  text-decoration: none;
+  color: black;
+  position: absolute;
+  top: 8cqw;
+  left: 36cqw;
 }
-.Fav{
-    text-decoration: none;
-    color: black;
-    position: absolute;
-    top: 4cqw;
-    left: 36cqw;
+.Fav {
+  text-decoration: none;
+  color: black;
+  position: absolute;
+  top: 4cqw;
+  left: 36cqw;
 }
-.Checkout{
-    text-decoration: none;
-    color: black;
-    position: absolute;
-    top: 10cqw;
-    left: 36cqw; 
+.Checkout {
+  text-decoration: none;
+  color: black;
+  position: absolute;
+  top: 10cqw;
+  left: 36cqw;
 }
-.Blog{
-    text-decoration: none;
-    color: black;
-    position: absolute;
-    top: 2cqw;
-    left: 20cqw; 
+.Blog {
+  text-decoration: none;
+  color: black;
+  position: absolute;
+  top: 2cqw;
+  left: 20cqw;
 }
 
 .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    left: 10cqw;
-    top: 8cqw;
-    background-color: rgb(251, 93, 35);
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 93px 306px;
-    z-index: 1;
-  }
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
+  position: relative;
+  display: inline-block;
+}
 
+.dropdown-content {
+  display: none;
+  position: absolute;
+  left: 10cqw;
+  top: 8cqw;
+  background-color: rgb(251, 93, 35);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 93px 306px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
 /************about***************/
 .about {
-    color: black;
-    font-size: 7rem;
-    position: absolute;
-    top: 2cqw;
-    left: 0cqw;
-    padding: 13px 610.4px;
-    background-color: orangered;
+  color: black;
+  font-size: 7rem;
+  position: absolute;
+  top: 2cqw;
+  left: 0cqw;
+  padding: 13px 610.4px;
+  background-color: orangered;
 }
 
 h2 {
-    font-size: 1.5rem;
-    position: absolute;
-    top: 29cqw;
-    left: 30cqw;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 29cqw;
+  left: 30cqw;
 }
 
 h3 {
-    font-size: 1.5rem;
-    position: absolute;
-    top: 40cqw;
-    left: 30cqw;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 40cqw;
+  left: 30cqw;
 }
 
 h4 {
-    font-size: 1.5rem;
-    position: absolute;
-    top: 51cqw;
-    left: 30cqw;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 51cqw;
+  left: 30cqw;
 }
 
 .animation {
-    width: 73px;
-    height: 62px;
-    top: 25cqw;
-    left: 24cqw;
-    background-image: url(Skærmbillede\ 2023-05-22\ 094104.png);
-    position: relative;
-    animation-name: example;
-    animation-duration: 8s;
-    animation-delay: 0s;
-    animation-iteration-count: infinite;
+  width: 73px;
+  height: 62px;
+  top: 25cqw;
+  left: 24cqw;
+  background-image: url(Skærmbillede\ 2023-05-22\ 094104.png);
+  position: relative;
+  animation-name: example;
+  animation-duration: 8s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
 }
-  
-@keyframes example {
-    0%   {background-image: url(Skærmbillede\ 2023-05-22\ 094104.png); left:380px; top:380px;}
-    25%  {background-image: url(Skærmbillede\ 2023-05-22\ 094104.png); left:1000px; top:380px;}
-    50%  {background-image: url(Skærmbillede\ 2023-05-22\ 094104.png); left:1000px; top:1000px;}
-    75%  {background-image: url(Skærmbillede\ 2023-05-22\ 094104.png); left:380px; top:1000px;}
-    100% {background-image: url(Skærmbillede\ 2023-05-22\ 094104.png); left:380px; top:380px;}
-  }
 
+@keyframes example {
+  0% {
+    background-image: url(Skærmbillede\ 2023-05-22\ 094104.png);
+    left: 380px;
+    top: 380px;
+  }
+  25% {
+    background-image: url(Skærmbillede\ 2023-05-22\ 094104.png);
+    left: 1000px;
+    top: 380px;
+  }
+  50% {
+    background-image: url(Skærmbillede\ 2023-05-22\ 094104.png);
+    left: 1000px;
+    top: 1000px;
+  }
+  75% {
+    background-image: url(Skærmbillede\ 2023-05-22\ 094104.png);
+    left: 380px;
+    top: 1000px;
+  }
+  100% {
+    background-image: url(Skærmbillede\ 2023-05-22\ 094104.png);
+    left: 380px;
+    top: 380px;
+  }
+}
 
 .footer {
-    color: black;
-    font-size: 4rem;
-    position: absolute;
-    top: 80cqw;
-    left: 0cqw;
-    padding: 13px 668.4px;
-    background-color: orangered;    
+  color: black;
+  font-size: 4rem;
+  position: absolute;
+  top: 80cqw;
+  left: 0cqw;
+  padding: 13px 668.4px;
+  background-color: orangered;
+}
+
+/******************************** BLOG *******************************/
+@media screen and (min-width: 750px) {
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1%;
+    column-gap: 1%;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+}
+
+/* .gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+} */
+
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+}
+
+.gallery-image {
+  width: 100%;
+  height: auto;
+}
+
+.gallery-text {
+  position: absolute;
+  top: 8%;
+  left: 6%;
+  color: #fff;
+  font-family: "polonium";
+  font-weight: bold;
+  text-align: left;
+  font-size: 150%;
+}
+.gallery-text2 {
+  position: absolute;
+  top: 22%;
+  left: 6%;
+  right: 6%;
+  color: black;
+  font-family: "polonium";
+  text-align: left;
+  font-size: 150%;
+}
+
+.blogicons {
+  position: absolute;
+  z-index: 10;
+  margin-top: 10%;
+  margin-left: 20%;
+}
+.blogicons img {
+  width: 15%;
 }
