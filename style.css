@@ -31,7 +31,7 @@ h1 {
   top: 2cqw;
   left: 0cqw;
   padding: 13px 610.4px;
-  background-color: orangered;
+  background-color: #f26d21;
 }
 
 /************************** WEB FONTS ************************/
@@ -44,7 +44,7 @@ h1 {
 
 /****************menu drop down***********************/
 .logo {
-  background-color: rgb(251, 93, 35);
+  background-color: #f26d21;
   width: 1493px;
   padding: 13px;
   position: absolute;
@@ -128,7 +128,7 @@ p {
   position: absolute;
   left: 10cqw;
   top: 8cqw;
-  background-color: rgb(251, 93, 35);
+  background-color: #f26d21;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   padding: 93px 306px;
@@ -147,7 +147,7 @@ p {
   top: 2cqw;
   left: 0cqw;
   padding: 13px 610.4px;
-  background-color: orangered;
+  background-color: #f26d21;
 }
 
 h2 {
@@ -219,7 +219,7 @@ h4 {
   top: 80cqw;
   left: 0cqw;
   padding: 13px 668.4px;
-  background-color: orangered;
+  background-color: f26d21;
 }
 
 /******************************** BLOG *******************************/
