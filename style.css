@@ -44,7 +44,8 @@ body {
   background-repeat: no-repeat;
   aspect-ratio: 1129/939;
   width: 40%;
-  margin-top: 7%;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 #footer_hours {
@@ -58,11 +59,9 @@ body {
 .fot_hour_text {
   padding-top: 5%;
 }
+
 .fot_hour_over {
   padding-top: 10%;
-}
-#fot_open {
-  padding-top: 5%;
 }
 
 #fot_con {
@@ -75,26 +74,27 @@ body {
   display: grid;
 }
 #fot_tlf_num {
-  padding-top: 5%;
+  padding-top: 1%;
+  padding-bottom: 40%;
 }
 #fot_tlf_over {
-  padding-top: 10%;
+  padding-top: 20%;
 }
 
 #fot_some {
+  display: grid;
   grid-template-columns: 1fr 1fr;
-  justify-items: normal;
+  align-items: center;
   width: 100%;
-  margin-top: 11%;
-  gap: 5%;
+  gap: 10%;
 }
 #fot_con_inst {
   grid-column: 1;
-  width: 40%;
+  width: 100%;
 }
 #fot_con_face {
   grid-column: 2;
-  width: 40%;
+  width: 100%;
 }
 
 /* hvad er det her????? */
