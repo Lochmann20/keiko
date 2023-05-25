@@ -27,7 +27,6 @@ body {
 /*****FOOTER*******/
 #footer {
   background-color: #f26d21;
-  padding-top: 10px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   position: absolute;
@@ -35,17 +34,17 @@ body {
   left: 0;
   right: 0;
   gap: 5%;
-  justify-items: center;
+  align-items: center;
+  padding-bottom: 1%;
 }
 
 #footer_logo {
   grid-column: 1;
-  background-image: url(img/logo.svg);
   background-repeat: no-repeat;
-  aspect-ratio: 1129/939;
   width: 40%;
   margin-top: 15%;
   margin-bottom: 5%;
+  margin-left: 30%;
 }
 
 #footer_hours {
@@ -70,30 +69,23 @@ body {
   font-family: "VT323", monospace;
   font-size: 2cqw;
   color: black;
-  padding: 5%;
-  padding-top: 0;
   display: grid;
 }
 
 #fot_about {
-  padding-top: 7%;
   color: black;
   text-decoration: none;
   font-family: "VT323", monospace;
   font-size: 2cqw;
   font-weight: bolder;
+  padding-top: 5%;
 }
-
 a:hover #fot_about {
   text-decoration: underline;
 }
 
-#fot_tlf_num {
-  padding-top: 0%;
-  padding-bottom: 10%;
-}
 #fot_tlf_over {
-  padding-top: 10%;
+  padding-top: 3%;
 }
 
 #fot_some {
@@ -101,15 +93,19 @@ a:hover #fot_about {
   grid-template-columns: 1fr 1fr;
   align-items: center;
   width: 100%;
-  gap: 10%;
+  padding-top: 2%;
 }
 #fot_con_inst {
   grid-column: 1;
-  width: 100%;
+  width: 60%;
+  padding-bottom: 0;
+  padding-top: 5%;
 }
 #fot_con_face {
   grid-column: 2;
-  width: 100%;
+  width: 60%;
+  padding-bottom: 0;
+  padding-top: 5%;
 }
 
 /* hvad er det her????? */
