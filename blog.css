@@ -1,0 +1,53 @@
+@media screen and (min-width: 750px) {
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1%;
+    column-gap: 1%;
+    margin-right: 6%;
+    margin-left: 6%;
+  }
+}
+
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+}
+
+.gallery-image {
+  width: 100%;
+  height: auto;
+}
+
+.gallery-text {
+  position: absolute;
+  top: 8%;
+  left: 6%;
+  color: #fff;
+  font-family: "VT323", monospace;
+  font-weight: bold;
+  text-align: left;
+  font-size: 200%;
+}
+
+.gallery-text2 {
+  position: absolute;
+  top: 22%;
+  left: 6%;
+  right: 6%;
+  color: black;
+  font-family: "VT323", monospace;
+  text-align: left;
+  font-size: 150%;
+}
+
+.blogicons {
+  position: absolute;
+  z-index: 10;
+  margin-top: 15%;
+  margin-left: 25%;
+}
+
+.blogicons img {
+  width: 15%;
+}

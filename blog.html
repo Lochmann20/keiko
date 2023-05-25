@@ -18,6 +18,8 @@
     <link rel="stylesheet" href="info.css">
     <link rel="stylesheet" href="product.css">
     <link rel="stylesheet" href="showproduct.css">
+    <link rel="stylesheet" href="blog.css">
+
 
     <title>BLOG</title>
 </head>
@@ -25,21 +27,34 @@
 <body>
 
     <header>
-        <h1 class="logo"><img src="Skærmbillede 2023-05-22 094325.png" alt="logo"></h1>
-
-        <div class="dropdown">
-            <span class="span2">Lookbook</span>
-            <span class="span3">Products</span>
-            <span class="span4">About</span>
-            <div class="dropdown-content">
-                <a class="About" href="about.html">About</a>
-                <a class="SignUp" href="kurv.html">Sign Up</a>
-                <a class="Kurv" href="kurv.html">Kurv</a>
-                <a class="Fav" href="favorit.html">Favourit</a>
-                <a class="Checkout" href="kurv.html">Check Out</a>
-                <a class="Blog" href="blog.html">Blog</a>
-            </div>
+        <div class="logo">
+            <a href="index.html">
+                <img src="img/keikologo.png" alt="logo">
+            </a>
         </div>
+        <nav>
+            <ul class="menu">
+                <li><a href="shop.html">Products</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+            <div class="icons">
+                <a href="favorit.html">
+                    <img src="img/hjerte.png" alt="hjerte">
+                </a>
+                <a href="favorit.html">
+                    <img src="img/hjerte.png" alt="hjerte">
+                </a>
+                <a href="favorit.html">
+                    <img src="img/hjerte.png" alt="hjerte">
+                </a>
+            </div>
+
+            <div class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
     </header>
 
 
@@ -54,15 +69,17 @@
                 <div class="gallery-text2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime cum a error
                     enim nihil sint quis! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime cum a error
                     enim nihil sint quis!</div>
-
             </div>
+
             <div class="gallery-item">
                 <img class="gallery-image" src="img/Asset 1.svg" alt="Image 1">
                 <div class="gallery-text">Text Overlay 2</div>
+                <div class="gallery-text2"><img src="img/blog/blogimg1.png" alt="blogimg1"></div>
             </div>
+
             <div class="gallery-item">
                 <img class="gallery-image" src="img/Asset 1.svg" alt="Image 1">
-                <div class="gallery-text">Text Overlay 3</div>
+                <div class="gallery-text">Text Overlay 3 </div>
             </div>
             <div class="gallery-item">
                 <img class="gallery-image" src="img/Asset 1.svg" alt="Image 1">
@@ -93,8 +110,6 @@
             <!-- Add more gallery items as needed -->
 
         </div>
-
-
     </main>
 
     <footer>
