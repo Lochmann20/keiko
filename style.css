@@ -53,6 +53,7 @@ body {
   font-size: 1cqw;
   color: black;
   padding: 5%;
+  padding-top: 0;
 }
 .fot_hour_text {
   padding-top: 5%;
@@ -61,23 +62,39 @@ body {
   padding-top: 10%;
 }
 #fot_open {
+  padding-top: 5%;
+}
+
+#fot_con {
+  grid-column: 3;
+  font-family: "polonium";
+  font-size: 1cqw;
+  color: black;
+  padding: 5%;
   padding-top: 0;
+  display: grid;
+}
+#fot_tlf_num {
+  padding-top: 5%;
+}
+#fot_tlf_over {
+  padding-top: 10%;
 }
 
 #fot_some {
-  grid-column: 3;
-  font-family: "polonium";
-  font-size: 2cqw;
-  display: grid;
   grid-template-columns: 1fr 1fr;
+  justify-items: normal;
+  width: 100%;
+  margin-top: 11%;
+  gap: 5%;
 }
 #fot_con_inst {
   grid-column: 1;
-  width: 100%;
+  width: 40%;
 }
 #fot_con_face {
   grid-column: 2;
-  width: 100%;
+  width: 40%;
 }
 
 /* hvad er det her????? */
