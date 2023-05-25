@@ -39,7 +39,7 @@ body {
 
 #footer_logo {
   grid-column: 1;
-  background-image: url(img/keikologo.png);
+  background-image: url(img/logo.svg);
 
   /******RET DETTE EFTER SVG UPLOAD******/
   aspect-ratio: 4/2;
@@ -53,17 +53,34 @@ body {
   color: black;
   padding: 5%;
 }
-
-#footer_contact {
+.fot_hour_text {
+  padding-top: 5%;
+}
+.fot_hour_over {
+  padding-top: 10%;
+}
+#fot_open {
+  padding-top: 0;
+}
+#footer_some {
   grid-column: 3;
   font-family: "polonium";
   font-size: 2cqw;
   color: black;
   padding: 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
-.fot_con_text {
-  padding-top: 5%;
+
+#fot_con_insta {
+  grid-column: 1;
+  width: 10%;
 }
+#fot_con_face {
+  grid-column: 2;
+  width: 10%;
+}
+
 /* hvad er det her????? */
 h1 {
   color: black;
