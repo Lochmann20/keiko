@@ -37,18 +37,21 @@ body {
   gap: 5%;
 }
 
-#footer_hours {
+#footer_logo {
   grid-column: 1;
-  font-family: "polonium";
-  font-size: 2cqw;
-  color: black;
+  background-image: url(img/keikologo.png);
+
+  /******RET DETTE EFTER SVG UPLOAD******/
+  aspect-ratio: 4/2;
+  width: 100%;
 }
 
-#footer_info {
+#footer_hours {
   grid-column: 2;
   font-family: "polonium";
   font-size: 2cqw;
   color: black;
+  padding: 5%;
 }
 
 #footer_contact {
@@ -56,8 +59,11 @@ body {
   font-family: "polonium";
   font-size: 2cqw;
   color: black;
+  padding: 5%;
 }
-
+.fot_con_text {
+  padding-top: 5%;
+}
 /* hvad er det her????? */
 h1 {
   color: black;
