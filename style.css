@@ -226,12 +226,6 @@ h4 {
   }
 }
 
-/* .gallery {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 20px;
-} */
-
 .gallery-item {
   position: relative;
   overflow: hidden;
