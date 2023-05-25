@@ -11,8 +11,51 @@ img {
   display: block;
 } */
 
+/************************** WEB FONTS ************************/
+@font-face {
+  font-family: "polonium";
+  src: url("polonium-bold-webfont.woff2") format("woff2"), url("polonium-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/************GÆLDER ALLE**********/
 body {
   background-color: rgb(255, 255, 255);
+}
+
+/*****FOOTER*******/
+#footer {
+  background-color: #f26d21;
+  padding-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  gap: 5%;
+}
+
+#footer_hours {
+  grid-column: 1;
+  font-family: "polonium";
+  font-size: 2cqw;
+  color: black;
+}
+
+#footer_info {
+  grid-column: 2;
+  font-family: "polonium";
+  font-size: 2cqw;
+  color: black;
+}
+
+#footer_contact {
+  grid-column: 3;
+  font-family: "polonium";
+  font-size: 2cqw;
+  color: black;
 }
 
 /* hvad er det her????? */
@@ -32,14 +75,6 @@ h1 {
   left: 0cqw;
   padding: 13px 610.4px;
   background-color: #f26d21;
-}
-
-/************************** WEB FONTS ************************/
-@font-face {
-  font-family: "poloniumbold";
-  src: url("polonium-bold-webfont.woff2") format("woff2"), url("polonium-bold-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
 }
 
 /****************menu drop down***********************/
@@ -139,7 +174,9 @@ p {
   display: block;
 }
 
-/************about***************/
+/*******FORSIDE*******/
+
+/************ABOUT***************/
 .about {
   color: black;
   font-size: 7rem;
@@ -169,57 +206,6 @@ h4 {
   position: absolute;
   top: 51cqw;
   left: 30cqw;
-}
-
-.animation {
-  width: 73px;
-  height: 62px;
-  top: 25cqw;
-  left: 24cqw;
-  background-image: url(Skærmbillede\ 2023-05-22\ 094104.png);
-  position: relative;
-  animation-name: example;
-  animation-duration: 8s;
-  animation-delay: 0s;
-  animation-iteration-count: infinite;
-}
-
-@keyframes example {
-  0% {
-    background-image: url(Skærmbillede\ 2023-05-22\ 094104.png);
-    left: 380px;
-    top: 380px;
-  }
-  25% {
-    background-image: url(Skærmbillede\ 2023-05-22\ 094104.png);
-    left: 1000px;
-    top: 380px;
-  }
-  50% {
-    background-image: url(Skærmbillede\ 2023-05-22\ 094104.png);
-    left: 1000px;
-    top: 1000px;
-  }
-  75% {
-    background-image: url(Skærmbillede\ 2023-05-22\ 094104.png);
-    left: 380px;
-    top: 1000px;
-  }
-  100% {
-    background-image: url(Skærmbillede\ 2023-05-22\ 094104.png);
-    left: 380px;
-    top: 380px;
-  }
-}
-
-.footer {
-  color: black;
-  font-size: 4rem;
-  position: absolute;
-  top: 80cqw;
-  left: 0cqw;
-  padding: 13px 668.4px;
-  background-color: #f26d21;
 }
 
 /******************************** BLOG *******************************/
@@ -260,6 +246,7 @@ h4 {
   text-align: left;
   font-size: 150%;
 }
+
 .gallery-text2 {
   position: absolute;
   top: 22%;
@@ -277,6 +264,49 @@ h4 {
   margin-top: 10%;
   margin-left: 20%;
 }
+
 .blogicons img {
   width: 15%;
+}
+
+/***ANIMATION EKSEMPEL********/
+.animation {
+  width: 73px;
+  height: 62px;
+  top: 25cqw;
+  left: 24cqw;
+  background-image: url(Skærmbillede\ 2023-05-22\ 094104.png);
+  position: relative;
+  animation-name: example;
+  animation-duration: 8s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  0% {
+    background-image: url(Skærmbillede\ 2023-05-22\ 094104.png);
+    left: 380px;
+    top: 380px;
+  }
+  25% {
+    background-image: url(Skærmbillede\ 2023-05-22\ 094104.png);
+    left: 1000px;
+    top: 380px;
+  }
+  50% {
+    background-image: url(Skærmbillede\ 2023-05-22\ 094104.png);
+    left: 1000px;
+    top: 1000px;
+  }
+  75% {
+    background-image: url(Skærmbillede\ 2023-05-22\ 094104.png);
+    left: 380px;
+    top: 1000px;
+  }
+  100% {
+    background-image: url(Skærmbillede\ 2023-05-22\ 094104.png);
+    left: 380px;
+    top: 380px;
+  }
 }
