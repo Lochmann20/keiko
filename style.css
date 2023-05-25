@@ -35,21 +35,22 @@ body {
   left: 0;
   right: 0;
   gap: 5%;
+  justify-items: center;
 }
 
 #footer_logo {
   grid-column: 1;
   background-image: url(img/logo.svg);
-
-  /******RET DETTE EFTER SVG UPLOAD******/
-  aspect-ratio: 4/2;
-  width: 100%;
+  background-repeat: no-repeat;
+  aspect-ratio: 1129/939;
+  width: 40%;
+  margin-top: 7%;
 }
 
 #footer_hours {
   grid-column: 2;
   font-family: "polonium";
-  font-size: 2cqw;
+  font-size: 1cqw;
   color: black;
   padding: 5%;
 }
@@ -62,23 +63,21 @@ body {
 #fot_open {
   padding-top: 0;
 }
-#footer_some {
+
+#fot_some {
   grid-column: 3;
   font-family: "polonium";
   font-size: 2cqw;
-  color: black;
-  padding: 5%;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-
-#fot_con_insta {
+#fot_con_inst {
   grid-column: 1;
-  width: 10%;
+  width: 100%;
 }
 #fot_con_face {
   grid-column: 2;
-  width: 10%;
+  width: 100%;
 }
 
 /* hvad er det her????? */
