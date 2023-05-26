@@ -1,0 +1,62 @@
+form {
+  max-width: 500px;
+  font-family: "VT323", monospace;
+  font-size: 2cqw;
+  color: black;
+  margin: 2%;
+  background-color: #fff;
+}
+
+.form-group {
+  margin-bottom: 5%;
+}
+
+#check {
+  font-family: "VT323", monospace;
+  font-size: 3cqw;
+  color: black;
+  margin: 2%;
+  font-weight: bolder;
+}
+
+.check_over {
+  font-weight: bolder;
+  font-family: "VT323", monospace;
+  margin-top: 3%;
+  margin-bottom: 1%;
+  font-size: 2.5cqw;
+}
+
+label {
+  display: block;
+  margin-bottom: 1%;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 2%;
+  font-size: 2cqw;
+  border: 0.2cqw solid #000000;
+  font-family: "VT323", monospace;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 2% 5%;
+  font-size: 2cqw;
+  border: none;
+  cursor: pointer;
+  font-family: "VT323", monospace;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+#check_knap {
+  font-family: "VT323", monospace;
+  font-size: 2cqw;
+  color: black;
+}
