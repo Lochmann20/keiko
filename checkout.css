@@ -10,13 +10,25 @@ form {
 .form-group {
   margin-bottom: 5%;
 }
-
+#check_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 2%;
+  gap: 2%;
+  width: fit-content;
+}
 #check {
+  grid-column: 1;
   font-family: "VT323", monospace;
   font-size: 3cqw;
   color: black;
-  margin: 2%;
   font-weight: bolder;
+  width: fit-content;
+}
+
+#check_hjerte {
+  grid-column: 2;
+  width: 20%;
 }
 
 .check_over {
@@ -42,7 +54,6 @@ input[type="email"] {
 }
 
 input[type="submit"] {
-  background-color: #4caf50;
   color: white;
   padding: 2% 5%;
   font-size: 2cqw;
@@ -51,12 +62,17 @@ input[type="submit"] {
   font-family: "VT323", monospace;
 }
 
-input[type="submit"]:hover {
-  background-color: #45a049;
-}
-
 #check_knap {
   font-family: "VT323", monospace;
   font-size: 2cqw;
   color: black;
+  text-decoration: none;
+  border: solid black;
+  padding: 0.4%;
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+}
+#check_knap:hover {
+  background-color: #f9f9f9;
+  text-decoration: underline;
 }
