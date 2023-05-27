@@ -1,0 +1,73 @@
+/************ABOUT***************/
+  
+.container_box {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    padding: 26%;
+    padding-top: 9%;
+  }
+  
+  .container_box > div {
+    background-color: rgba(255, 255, 255, 0.8);
+ 
+    text-align: center;
+    font-size: 50px;
+  }
+
+.return{
+    text-align: start;
+    font-size: 2rem;
+    padding: 10px;
+}
+.text_p{
+    font-size: 1rem;
+    text-align: start;
+    padding: 10px;
+    padding-top: 0;
+}
+.Shipment{
+    text-align: start;
+    font-size: 2rem;
+    padding: 10px;
+}
+.text_s{
+    font-size: 1rem;
+    text-align: start;
+    padding: 10px;
+    padding-top: 0;
+}
+.Order{
+    text-align: start;
+    font-size: 2rem;
+    padding: 10px;
+}
+.text_o{
+    font-size: 1rem;
+    text-align: start;
+    padding: 10px;
+    padding-top: 0;
+}
+
+.animation{
+    
+}
+
+  
+  /***ANIMATION EKSEMPEL********/
+  .animation {
+    animation-name: keiko;
+
+  }
+    animation-name: example;
+    animation-duration: 8s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+  
+  @keyframes keiko {
+    0% {background-image: url(Skærmbillede\ 2023-05-22\ 094104.png); left: 380px; top: 380px;}
+    25% {background-image: url(Skærmbillede\ 2023-05-22\ 094104.png); left: 1000px; top: 380px;}
+    50% {background-image: url(Skærmbillede\ 2023-05-22\ 094104.png); left: 1000px; top: 1000px;}
+    75% {background-image: url(Skærmbillede\ 2023-05-22\ 094104.png); left: 380px; top: 1000px;}
+    100% {background-image: url(Skærmbillede\ 2023-05-22\ 094104.png); left: 380px; top: 380px;}
+  }
