@@ -1,0 +1,78 @@
+form {
+  max-width: 500px;
+  font-family: "VT323", monospace;
+  font-size: 2cqw;
+  color: black;
+  margin: 2%;
+  background-color: #fff;
+}
+
+.form-group {
+  margin-bottom: 5%;
+}
+#check_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 2%;
+  gap: 2%;
+  width: fit-content;
+}
+#check {
+  grid-column: 1;
+  font-family: "VT323", monospace;
+  font-size: 3cqw;
+  color: black;
+  font-weight: bolder;
+  width: fit-content;
+}
+
+#check_hjerte {
+  grid-column: 2;
+  width: 20%;
+}
+
+.check_over {
+  font-weight: bolder;
+  font-family: "VT323", monospace;
+  margin-top: 3%;
+  margin-bottom: 1%;
+  font-size: 2.5cqw;
+}
+
+label {
+  display: block;
+  margin-bottom: 1%;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 2%;
+  font-size: 2cqw;
+  border: 0.2cqw solid #000000;
+  font-family: "VT323", monospace;
+}
+
+input[type="submit"] {
+  color: white;
+  padding: 2% 5%;
+  font-size: 2cqw;
+  border: none;
+  cursor: pointer;
+  font-family: "VT323", monospace;
+}
+
+#check_knap {
+  font-family: "VT323", monospace;
+  font-size: 2cqw;
+  color: black;
+  text-decoration: none;
+  border: solid black;
+  padding: 0.4%;
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+}
+#check_knap:hover {
+  background-color: #f9f9f9;
+  text-decoration: underline;
+}

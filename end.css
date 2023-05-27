@@ -1,0 +1,30 @@
+#end {
+  max-width: 500px;
+  /****ERSTAT MED OVERSKRIFT FONT****/
+  font-family: "VT323", monospace;
+
+  font-size: 2cqw;
+  color: black;
+  margin: 2%;
+  background-color: #fff;
+}
+
+#thanks {
+  position: absolute;
+  left: 38%;
+  top: 20%;
+}
+
+#keiko {
+  position: absolute;
+  font-size: 4cqw;
+  top: 28%;
+  left: 43%;
+}
+
+#end_logo {
+  position: absolute;
+  left: 25%;
+  top: 40%;
+  width: 50%;
+}

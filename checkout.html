@@ -21,10 +21,93 @@
     <link rel="stylesheet" href="showproduct.css">
 
     <title>Document</title>
-    <h1>Test</h1>
+
 </head>
 
 <body>
+    <header></header>
+    <main>
+        <div id="check_grid">
+            <div id="check">CHECKOUT</div>
+            <img id="check_hjerte" src="img/hjerte.svg" alt="hjerte">
+        </div>
+
+        <form>
+            <div class="check_over">SHIPPING INFORMATION</div>
+            <div class="form-group">
+                <label for="name">FULL NAME:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">EMAIL-ADDRESS:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="address">ADDRESS:</label>
+                <input type="text" id="address" name="address" required>
+            </div>
+            <div class="form-group">
+                <label for="city">CITY:</label>
+                <input type="text" id="city" name="city" required>
+            </div>
+            <div class="form-group">
+                <label for="zipcode">ZIP CODE:</label>
+                <input type="text" id="zipcode" name="zipcode" required>
+            </div>
+
+            <div class="check_over">PAYMENT INFORMATION</div>
+            <div class="form-group">
+                <label for="cardname">CARDHOLDERS NAME:</label>
+                <input type="text" id="cardname" name="cardname" required>
+            </div>
+            <div class="form-group">
+                <label for="cardnumber">CARD NUMBER:</label>
+                <input type="text" id="cardnumber" name="cardnumber" required>
+            </div>
+            <div class="form-group">
+                <label for="expiration">EXPIRATION DATE:</label>
+                <input type="text" id="expiration" name="expiration" required>
+            </div>
+            <div class="form-group">
+                <label for="cvv">CVV:</label>
+                <input type="text" id="cvv" name="cvv" required>
+            </div>
+            <button id="check_knap" type="submit" formaction="end.html">PLACE ORDER</button>
+
+        </form>
+    </main>
+
+    <footer>
+        <div id="footer">
+
+            <div id="footer_logo"><a href="index.html"> <img src="img/logo.svg" alt="logo"></a></div>
+
+            <div id="footer_hours">
+                <div id="fot_open" class="fot_hour_over">OPEN</div>
+                <div id="fot_monsat" class="fot_hour_text">MONDAY-SATURDAY 11-18</div>
+                <div id="fot_clo" class="fot_hour_over">CLOSED</div>
+                <div id="fot_sathol" class="fot_hour_text">SUNDAYS &amp; HOLIDAYS</div>
+                <div id="fot_adr" class="fot_hour_over">ADRESS</div>
+                <div id="fot_birk" class="fot_hour_text">BIRKEGADE 9A, 2200 COPENHAGEN</div>
+            </div>
+
+            <div id="fot_con">
+                <a href=" about.html" id="fot_about">ABOUT</a>
+                <div id="fot_tlf_over"> PHONENUMBER
+                </div>
+                <div id="fot_tlf_num">+45 22 59 93 44</div>
+
+                <div id="fot_some">
+                    <div id="fot_con_inst"><a href="http://www.instagram.com/keikocph/"><img src="img/instagram.svg"
+                                alt="instagram"></a>
+                    </div>
+                    <div id="fot_con_face"><a href="https://www.facebook.com/KeikoCph"><img src="img/facebook.svg"
+                                alt="facebook"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 </body>
 
