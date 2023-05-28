@@ -6,6 +6,8 @@
     column-gap: 1%;
     margin-right: 6%;
     margin-left: 6%;
+    margin-top: 6%;
+    margin-bottom: 20%;
   }
 }
 
@@ -39,6 +41,13 @@
   font-family: "VT323", monospace;
   text-align: left;
   font-size: 150%;
+}
+
+.gallery-text2 img {
+  position: absolute;
+  display: flex;
+  place-items: center;
+  top: 24%;
 }
 
 .blogicons {
