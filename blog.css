@@ -71,6 +71,8 @@
   height: auto;
 }
 **/
+
+/*************************** BLOGICONS *****************************/
 .blogicons {
   position: absolute;
   z-index: 10;
@@ -124,4 +126,44 @@
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+}
+
+/*************************** COPY DISCOUNTCODE *****************************/
+
+.copiedtext {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  text-align: center;
+  opacity: 0;
+  transform: translateY(-1em);
+  color: black;
+  transition: all 0.7s;
+}
+.copied .copiedtext {
+  opacity: 1;
+  transform: translateY(3em);
+}
+
+button {
+  font-size: 150%;
+  font-family: "VT323", monospace;
+}
+
+button {
+  position: relative;
+  padding: 1% 1%;
+  border: 2px dotted #f36d20;
+  font-size: 100%;
+  color: #f36d20;
+  text-transform: uppercase;
+  letter-spacing: 0.125em;
+  transition: background 0.275s;
+}
+button:hover,
+button:focus {
+  background: #f5d6e8;
+  color: #fff;
+  cursor: pointer;
 }
