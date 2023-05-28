@@ -125,11 +125,21 @@ header {
   height: auto;
 }
 
+.heart {
+  aspect-ratio: 1257/1065;
+}
+
+.kurv {
+  aspect-ratio: 663/1451.33;
+}
+.icons img {
+  height: 2%;
+  width: auto;
+}
 .icons {
   display: flex;
-  width: 80px;
-  height: auto;
 }
+
 nav {
   display: flex;
   align-items: center;
