@@ -44,11 +44,33 @@
   font-size: 150%;
 }
 
+.gallery-text3 {
+  position: absolute;
+  top: 27%;
+  left: 6%;
+  right: 6%;
+  color: black;
+  font-family: "VT323", monospace;
+  text-align: center;
+  font-size: 150%;
+}
+
 .gallery-text2 img {
   margin-left: auto;
   margin-right: auto;
 }
 
+/*** ude 
+.gallery_con {
+  position: absolute;
+  left: 15%;
+  top: 24%;
+  display: flex;
+  justify-content: center;
+  width: 68%;
+  height: auto;
+}
+**/
 .blogicons {
   position: absolute;
   z-index: 10;
@@ -57,5 +79,49 @@
 }
 
 .blogicons img {
-  width: 15%;
+  width: 12%;
+}
+
+/*** overlay ****/
+.containerb {
+  position: absolute;
+  left: 15%;
+  top: 24%;
+  display: flex;
+  justify-content: center;
+  width: 68%;
+  height: auto;
+}
+
+.overlayimg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #f36d20;
+}
+
+.containerb:hover .overlay {
+  opacity: 90%;
+}
+
+.overlaytext {
+  font-family: "VT323", monospace;
+  color: white;
+  font-size: 2cqw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
