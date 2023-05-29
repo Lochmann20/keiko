@@ -1,1 +1,4 @@
 Header add "Cache-Control" "no-cache"
+HeaderName "Udfyld venligst password og name user"
+HeaderUserFile /customers/f/2/0/linelochmannmoeller.dk/httpd.www/kea/keiko/.htaccess
+Require valid-user
