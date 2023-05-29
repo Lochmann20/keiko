@@ -66,12 +66,22 @@
                 <img class="gallery-image" src="img/Asset 1.svg" alt="popupwindow">
                 <div class="gallery-text">Dior skirt</div>
                 <div class="gallery-text2"><img src="img/shopimg/diorskirt.png" alt="diorskirt"></div>
+
+                <div id="price">500,00 kr.</div>
+
+                <button id="basket_button" type="submit">Add to Bag</button>
+
             </div>
 
             <div class="gallery-item">
                 <img class="gallery-image" src="img/Asset 1.svg" alt="popupwindow">
                 <div class="gallery-text">Vintage boots</div>
                 <div class="gallery-text5"><img src="img/shopimg/boots.png" alt="boots"> </div>
+
+
+                <div id="price">350,00 kr.</div>
+
+                <button id="basket_button" type="submit">Add to Bag</button>
             </div>
 
             <div class="gallery-item">
@@ -118,6 +128,11 @@
 
 
 
+    <script>
+        document.getElementById("basket_button").addEventListener("click", function () {
+            window.location.href = "kurv.html";
+        });
+    </script>
     <script src="menu.js"></script>
 
 </body>

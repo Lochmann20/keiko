@@ -155,9 +155,6 @@
 button {
   font-size: 150%;
   font-family: "VT323", monospace;
-}
-
-button {
   position: relative;
   padding: 1% 1%;
   border: 2px dotted #f36d20;
