@@ -1,7 +1,35 @@
+/****************************** IMG ********************************/
 .gallery-text5 {
   position: absolute;
   top: 22%;
   place-content: center;
   left: 10%;
-  width: 70%;
+  width: 65%;
+}
+
+/****************************** PRICE ********************************/
+#price {
+  margin-top: 2%;
+  font-size: 170%;
+  font-family: "VT323", monospace;
+}
+
+/****************************** BUTTON ********************************/
+#basket_button {
+  font-family: "VT323", monospace;
+  margin-top: 2%;
+  position: relative;
+  padding: 2% 2%;
+  border: 2px double #f36d20;
+  font-size: 150%;
+  text-transform: uppercase;
+  transition: background 0.275s;
+  background: #f5d6e8;
+}
+
+#basket_button:hover,
+#basket_button:focus {
+  background: #f36d20;
+  color: black;
+  cursor: pointer;
 }
