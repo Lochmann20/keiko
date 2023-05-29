@@ -33,3 +33,12 @@
   color: black;
   cursor: pointer;
 }
+#favheart {
+  position: relative;
+  left: 80%;
+  top: 6%;
+}
+#favheart img {
+  position: absolute;
+  width: 10%;
+}

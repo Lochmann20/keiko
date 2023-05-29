@@ -62,32 +62,54 @@
 
     <main>
         <div class="gallery">
+            <!-- POPUP WINDOW -->
             <div class="gallery-item">
+                <div id="favheart">
+                    <a href="favorit.html">
+                        <img src="img/hjerte.svg" alt="heart">
+                    </a>
+                </div>
+
                 <img class="gallery-image" src="img/Asset 1.svg" alt="popupwindow">
                 <div class="gallery-text">Dior skirt</div>
+
+                <!-- IMG -->
                 <div class="gallery-text2"><img src="img/shopimg/diorskirt.png" alt="diorskirt"></div>
 
+                <!-- PRICE -->
                 <div id="price">500,00 kr.</div>
 
+                <!-- BASKET BUTTON -->
                 <button id="basket_button" type="submit">Add to Bag</button>
 
             </div>
 
             <div class="gallery-item">
+                <!-- POPUP WINDOW -->
                 <img class="gallery-image" src="img/Asset 1.svg" alt="popupwindow">
                 <div class="gallery-text">Vintage boots</div>
+
+                <!-- IMG -->
                 <div class="gallery-text5"><img src="img/shopimg/boots.png" alt="boots"> </div>
 
-
+                <!-- PRICE -->
                 <div id="price">350,00 kr.</div>
-
+                <!-- BASKET BUTTON -->
                 <button id="basket_button" type="submit">Add to Bag</button>
             </div>
 
             <div class="gallery-item">
+                <!-- POPUP WINDOW -->
                 <img class="gallery-image" src="img/Asset 1.svg" alt="popupwindow">
-                <div class="gallery-text">May23 Moodboard</div>
-                <div class="gallery-text2"><img src="img/blog/keikomood.png" alt="blogimg1"></div>
+                <div class="gallery-text">Vintage boots</div>
+
+                <!-- IMG -->
+                <div class="gallery-text5"><img src="img/shopimg/boots.png" alt="boots"> </div>
+
+                <!-- PRICE -->
+                <div id="price">350,00 kr.</div>
+                <!-- BASKET BUTTON -->
+                <button id="basket_button" type="submit">Add to Bag</button>
             </div>
         </div>
 
@@ -127,12 +149,13 @@
     </footer>
 
 
-
+    <!-- JAVASCRIPT -->
     <script>
         document.getElementById("basket_button").addEventListener("click", function () {
             window.location.href = "kurv.html";
         });
     </script>
+
     <script src="menu.js"></script>
 
 </body>
