@@ -66,26 +66,23 @@
     padding-top: 0;
 }
 
-
-.animation{
-    
-}
-
   
   /***ANIMATION EKSEMPEL********/
-  .animation {
-    animation-name: keiko;
-
-  }
-    animation-name: example;
-    animation-duration: 8s;
+  .animation{
+    position: absolute;
+    width: 3%;
+    top: 31%;
+    left: 20%;
+    animation: animation infinite;
+    animation-duration: 9s;
+    animation-timing-function: linear;
     animation-delay: 0s;
-    animation-iteration-count: infinite;
+  }
   
-  @keyframes keiko {
-    0% {background-image: url(Skærmbillede\ 2023-05-22\ 094104.png); left: 380px; top: 380px;}
-    25% {background-image: url(Skærmbillede\ 2023-05-22\ 094104.png); left: 1000px; top: 380px;}
-    50% {background-image: url(Skærmbillede\ 2023-05-22\ 094104.png); left: 1000px; top: 1000px;}
-    75% {background-image: url(Skærmbillede\ 2023-05-22\ 094104.png); left: 380px; top: 1000px;}
-    100% {background-image: url(Skærmbillede\ 2023-05-22\ 094104.png); left: 380px; top: 380px;}
+  @keyframes animation {
+    0%   { left: 20%; top: 20%;}
+    25%  { left: 78%; top: 20%;}
+    50%  { left: 78%; top: 138%;}
+    75%  { left: 20%; top: 138%;}
+    100% { left: 20%; top: 20%;}
   }
