@@ -3,8 +3,28 @@
   position: absolute;
   top: 22%;
   place-content: center;
-  left: 10%;
+  left: 18%;
   width: 65%;
+}
+
+.gallery-text6 {
+  position: absolute;
+  top: 18%;
+  place-content: center;
+  left: 18%;
+  width: 60%;
+}
+.shop-text {
+  position: absolute;
+  top: 7%;
+  left: 6%;
+  color: #fff;
+  font-family: "VT323", monospace;
+  font-weight: bold;
+  text-align: left;
+  font-size: 200%;
+  text-transform: uppercase;
+  z-index: 50;
 }
 
 /****************************** PRICE ********************************/
@@ -25,6 +45,7 @@
   text-transform: uppercase;
   transition: background 0.275s;
   background: #f5d6e8;
+  margin-bottom: 8%;
 }
 
 #basket_button:hover,
