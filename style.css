@@ -30,7 +30,6 @@ body {
   grid-template-columns: 1fr 1fr 1fr;
   position: absolute;
   padding-bottom: 1%;
-  bottom: 0;
   left: 0;
   right: 0;
   gap: 5%;
@@ -126,11 +125,21 @@ header {
   height: auto;
 }
 
+.heart {
+  aspect-ratio: 1257/1065;
+}
+
+.kurv {
+  aspect-ratio: 663/1451.33;
+}
+.icons img {
+  height: 150%;
+  width: auto;
+}
 .icons {
   display: flex;
-  width: 80px;
-  height: auto;
 }
+
 nav {
   display: flex;
   align-items: center;
@@ -154,17 +163,17 @@ nav {
 
 .menu a {
   text-decoration: none;
-  color: #3a365cff;
+  color: black;
   text-transform: uppercase;
-  font-family: "polonium";
+  font-family: "VT323", monospace;
   font-weight: bolder;
-  font-size: 20px;
+  font-size: 4cqw;
 }
 a:hover {
   color: #ffd8f4;
 }
 a.active {
-  color: #cccc33;
+  color: #ffd8f4;
   font-weight: bold;
 }
 
@@ -207,9 +216,9 @@ a.active {
 
   nav.active .menu {
     display: block;
-    background-color: #cccc33;
+    background-color: #f36d20;
     position: absolute;
-    top: 85px;
+    top: 20%;
     left: 0;
     width: 100%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -225,78 +234,42 @@ a.active {
   }
 }
 
-/*******FORSIDE*******/
-
-/************ABOUT***************/
-.about {
-  color: black;
-  font-size: 7rem;
-  position: absolute;
-  top: 2cqw;
-  left: 0cqw;
-  padding: 13px 610.4px;
-  background-color: #f26d21;
-}
-
-h2 {
-  font-size: 1.5rem;
-  position: absolute;
-  top: 29cqw;
-  left: 30cqw;
-}
-
-h3 {
-  font-size: 1.5rem;
-  position: absolute;
-  top: 40cqw;
-  left: 30cqw;
-}
-
-h4 {
-  font-size: 1.5rem;
-  position: absolute;
-  top: 51cqw;
-  left: 30cqw;
-}
-
-/***ANIMATION EKSEMPEL********/
-.animation {
-  width: 73px;
-  height: 62px;
-  top: 25cqw;
-  left: 24cqw;
-  background-image: url(Skærmbillede\ 2023-05-22\ 094104.png);
-  position: relative;
-  animation-name: example;
-  animation-duration: 8s;
-  animation-delay: 0s;
-  animation-iteration-count: infinite;
-}
-
-@keyframes example {
-  0% {
-    background-image: url(Skærmbillede\ 2023-05-22\ 094104.png);
-    left: 380px;
-    top: 380px;
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {
+    width: 8.33%;
   }
-  25% {
-    background-image: url(Skærmbillede\ 2023-05-22\ 094104.png);
-    left: 1000px;
-    top: 380px;
+  .col-2 {
+    width: 16.66%;
   }
-  50% {
-    background-image: url(Skærmbillede\ 2023-05-22\ 094104.png);
-    left: 1000px;
-    top: 1000px;
+  .col-3 {
+    width: 25%;
   }
-  75% {
-    background-image: url(Skærmbillede\ 2023-05-22\ 094104.png);
-    left: 380px;
-    top: 1000px;
+  .col-4 {
+    width: 33.33%;
   }
-  100% {
-    background-image: url(Skærmbillede\ 2023-05-22\ 094104.png);
-    left: 380px;
-    top: 380px;
+  .col-5 {
+    width: 41.66%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
   }
 }
