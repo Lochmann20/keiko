@@ -76,3 +76,25 @@ input[type="submit"] {
   background-color: #f9f9f9;
   text-decoration: underline;
 }
+
+#check_grid2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#check_tha {
+  rotate: 90deg;
+  position: fixed;
+  left: 50%;
+  top: 20%;
+}
+#check_logo {
+  grid-column: 1;
+  padding-left: 8%;
+}
+#check_thank {
+  grid-column: 2;
+  font-family: "VT323", monospace;
+  color: black;
+  font-size: 3cqw;
+}
