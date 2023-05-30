@@ -16,7 +16,7 @@
 }
 .shop-text {
   position: absolute;
-  top: 7%;
+  top: 6%;
   left: 6%;
   color: #fff;
   font-family: "VT323", monospace;
@@ -28,14 +28,14 @@
 }
 
 /****************************** PRICE ********************************/
-#price {
+.price {
   margin-top: 2%;
   font-size: 170%;
   font-family: "VT323", monospace;
 }
 
 /****************************** BUTTON ********************************/
-#basket_button {
+.basket_button {
   font-family: "VT323", monospace;
   margin-top: 2%;
   position: relative;
@@ -48,18 +48,18 @@
   margin-bottom: 8%;
 }
 
-#basket_button:hover,
-#basket_button:focus {
+.basket_button:hover,
+.basket_button:focus {
   background: #f36d20;
   color: black;
   cursor: pointer;
 }
-#favheart {
+.favheart {
   position: relative;
   left: 80%;
   top: 6%;
 }
-#favheart img {
+.favheart img {
   position: absolute;
   width: 10%;
 }
