@@ -1,0 +1,10 @@
+@media (max-width: 800px) {
+  #videoweb {
+    display: none;
+  }
+}
+@media (min-width: 800px) {
+  #videmobil {
+    display: none;
+  }
+}

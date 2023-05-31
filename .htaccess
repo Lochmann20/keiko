@@ -1,4 +1,0 @@
-AuthType Basic
-HeaderName "Udfyld venligst password og name user"
-AuthUserFile /customers/f/2/0/linelochmannmoeller.dk/httpd.www/kea/keiko/.htaccess
-Require valid-user
