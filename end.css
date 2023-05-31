@@ -7,6 +7,7 @@
   color: black;
   margin: 2%;
   background-color: #fff;
+  margin-bottom: 75%;
 }
 
 #thanks {
@@ -17,21 +18,36 @@
 
 #keiko {
   position: absolute;
-  font-size: 4cqw;
-  top: 25%;
-  left: 47%;
+  font-size: 15cqw;
+  top: 22%;
+  left: 37%;
 }
 
 #return {
   position: absolute;
   left: 43%;
-  top: 35%;
+  top: 48%;
+  text-decoration: none;
+  padding: 0.4%;
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+  margin-top: 2%;
+  border: 2px double #f36d20;
+  transition: background 0.275s;
+  background: #f5d6e8;
+  color: #f36d20;
+}
+
+#return:hover,
+#return:focus {
+  background: #f36d20;
   color: black;
+  cursor: pointer;
 }
 
 #end_logo {
   position: absolute;
   left: 30%;
-  top: 45%;
+  top: 65%;
   width: 50%;
 }

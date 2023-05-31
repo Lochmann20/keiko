@@ -5,6 +5,7 @@ form {
   color: black;
   margin: 2%;
   background-color: #fff;
+  margin-bottom: 20%;
 }
 
 .form-group {
@@ -65,16 +66,27 @@ input[type="submit"] {
 #check_knap {
   font-family: "VT323", monospace;
   font-size: 2cqw;
-  color: black;
+
   text-decoration: none;
-  border: solid black;
   padding: 0.4%;
   padding-left: 0.5%;
   padding-right: 0.5%;
+  margin-top: 2%;
+  border: 2px double #f36d20;
+  font-size: 150%;
+  transition: background 0.275s;
+  background: #f5d6e8;
+  margin-bottom: 8%;
+  position: absolute;
+  top: 185%;
+  left: 1%;
 }
-#check_knap:hover {
-  background-color: #f9f9f9;
-  text-decoration: underline;
+
+#check_knap:hover,
+#check_knap:focus {
+  background: #f36d20;
+  color: black;
+  cursor: pointer;
 }
 
 #check_grid2 {
