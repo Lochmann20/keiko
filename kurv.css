@@ -22,6 +22,7 @@
 
 #kurv_grid2 {
   margin: 5%;
+  margin-bottom: 70%;
 }
 
 #kurv_grid2_1 {
@@ -38,13 +39,15 @@
 
 #kurv_pop1 {
   grid-column: 1;
-  width: 120%;
+  width: 27%;
+  position: absolute;
+  top: 37%;
 }
 
 #kurv_dior2 {
   width: 20%;
   position: absolute;
-  top: 52%;
+  top: 47%;
   left: 7%;
 }
 
@@ -63,7 +66,7 @@
   color: black;
   font-family: "VT323", monospace;
   position: absolute;
-  top: 80%;
+  top: 76%;
   left: 35%;
 }
 #remove1 {
@@ -72,7 +75,7 @@
   color: black;
   font-family: "VT323", monospace;
   position: absolute;
-  top: 85%;
+  top: 81%;
   left: 35%;
 }
 #remove1:hover {
@@ -83,8 +86,10 @@
 /******BOOTS******/
 
 #kurv_pop2 {
-  width: 30%;
+  width: 27%;
   padding-top: 5%;
+  position: absolute;
+  top: 92%;
 }
 
 #kurv_boots2 {
@@ -99,7 +104,7 @@
   color: white;
   font-family: "VT323", monospace;
   position: absolute;
-  top: 102%;
+  top: 105%;
   left: 7%;
 }
 
